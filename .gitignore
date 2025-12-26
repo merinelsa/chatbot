@@ -1,3 +1,25 @@
+# --- Virtual Environments ---
+venv/
+.venv/
+env/
+
+# --- Environment Secrets ---
 .env
+env
+
+# --- RAG & Vector Database Storage ---
+db_storage/
+document_vault/
+my_vector_db/
+rag_vault/
+syllabus_vault/
 rag_storage/
+chroma.sqlite3
+
+# --- Python Cache ---
 __pycache__/
+*.py[cod]
+
+# --- Documents ---
+temp.pdf
+*.pdf
