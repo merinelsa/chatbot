@@ -32,8 +32,8 @@ cd rag-chatbot
 optional but recommended
 python -m venv .venv
 .venv\Scripts\activate # Windows
-
 source .venv/bin/activate # mac / linux
+
 pip install -r requirements.txt
 
 Create a `.env` file in the project folder:
